@@ -14,3 +14,44 @@
 - Winston kullanılacak.
 - Ürüne tıkladığımız zaman bir kutusu ekrana gelecek ve ürünün bilgileri yer alacak.
 - Relational veritabanı için PostgreSQL kullanılacak.
+
+
+-------------------------------------------
+# Frontend
+> Ürünlerin listlendiği alan layout 3
+![HomePage](https://media.discordapp.net/attachments/922810114958831647/958463370355417138/addproductHomepage.png?width=1248&height=671)
+
+> Ürünlerin listlendiği alan layout 4
+![HomePage](https://media.discordapp.net/attachments/922810114958831647/958462756095418378/homePageLayout4.png?width=1245&height=670)
+
+> Ürün Sayfası  
+![ProductPage](https://media.discordapp.net/attachments/922810114958831647/958462756800053389/ProductDetail.png?width=1193&height=671)
+
+
+![Fiter1](https://media.discordapp.net/attachments/922810114958831647/958462755747295242/filterSandalye.png?width=1193&height=671)
+
+![Fiter2](https://media.discordapp.net/attachments/922810114958831647/958462755491418142/filterMasa.png?width=1194&height=671)
+
+> Ürün bilgileri edit butonuna tıklayarak değiştirilebiliyor
+![Edit](https://media.discordapp.net/attachments/922810114958831647/958462754379923536/editpage.png?width=1250&height=671)
+
+> Yeni ürün ekleyen sayfa
+![Add](https://media.discordapp.net/attachments/922810114958831647/958465122525933690/add.png?width=1211&height=681)
+
+ve Sepet
+![cart](https://media.discordapp.net/attachments/922810114958831647/958462754031829132/cart.png?width=1211&height=681)
+
+-------------
+
+# Backend
+> Postgresql veritabanından gelen veriler bu şekilde
+
+> ![api](https://media.discordapp.net/attachments/922810114958831647/958462753620758628/api.png?width=1446&height=679)
+
+> Elastic Search ve Kibanayı ayağa kaldırdım ve backend'e bağladım ancak frontend'e bağlayacak zamanı bulamadım.
+
+> ![api](https://media.discordapp.net/attachments/922810114958831647/958462756405780570/kibanaAndElastic.png?width=1446&height=475)
+
+> Fotoğrafları Backend kısmına express-fileupload kütüphanesi ile public/uploads klasörüne kaydeden kodu yazdım.
+
+> ![api](https://media.discordapp.net/attachments/922810114958831647/958468495773949962/fotograf.png?width=1089&height=681)
