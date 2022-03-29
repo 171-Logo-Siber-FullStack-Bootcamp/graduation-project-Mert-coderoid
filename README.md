@@ -17,6 +17,7 @@
 
 
 -------------------------------------------
+
 # Frontend
 > Ürünlerin listlendiği alan layout 3
 ![HomePage](https://media.discordapp.net/attachments/922810114958831647/958463370355417138/addproductHomepage.png?width=1248&height=671)
@@ -49,9 +50,10 @@ ve Sepet
 > ![api](https://media.discordapp.net/attachments/922810114958831647/958462753620758628/api.png?width=1446&height=679)
 
 > Elastic Search ve Kibanayı ayağa kaldırdım ve backend'e bağladım ancak frontend'e bağlayacak zamanı bulamadım.
-
 > ![api](https://media.discordapp.net/attachments/922810114958831647/958462756405780570/kibanaAndElastic.png?width=1446&height=475)
 
 > Fotoğrafları Backend kısmına express-fileupload kütüphanesi ile public/uploads klasörüne kaydeden kodu yazdım.
-
 > ![api](https://media.discordapp.net/attachments/922810114958831647/958468495773949962/fotograf.png?width=1089&height=681)
+
+> ve winston'ı implemente ettim
+> ![winston](https://media.discordapp.net/attachments/841138857964863501/958472288611733534/winston.png)
